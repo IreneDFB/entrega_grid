@@ -102,3 +102,39 @@ footer {
   padding: 20px;
   border-radius: 8px;
 }
+@media screen and (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  header,
+  main,
+  p,
+  .atletismo,
+  .piscina,
+  .verano,
+  .invierno {
+    grid-column: 1 / -1;
+    width: 100%;
+  }
+
+  header {
+    height: auto;
+    padding: 20px;
+  }
+
+  p {
+    padding: 20px;
+    height: auto;
+    text-align: center;
+  }
+
+  p button {
+    justify-self: center;
+  }
+
+  .grid-container img {
+    height: auto;
+  }
+}
