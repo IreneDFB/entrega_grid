@@ -30,9 +30,15 @@ header {
   border-radius: 8px;
   height: 380px;
   width: 260px;
+  display: grid;
+  row-gap: 15px;
+  text-align: center;
 }
 h1 {
   text-align: center;
+}
+h2 {
+  font-weight: normal;
 }
 main {
   grid-column: 2;
@@ -52,6 +58,20 @@ p {
   padding: 50px;
   font-family: Arial, Helvetica, sans-serif;
   color: #f9f9f9;
+  display: grid;
+  row-gap: 5px;
+}
+p button {
+  padding: 5px 20px;
+  background-color: white;
+  color: orangered;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 200px;
+  display: grid;
+  place-items: center;
 }
 .grid-container img {
   width: 100%;
